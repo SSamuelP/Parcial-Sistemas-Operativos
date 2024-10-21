@@ -45,7 +45,7 @@ Este es un repositorio el cual corresponde al segundo parcial de la asignatura S
      ```wsl
      docker stop <id_del_contenedor>
      ```
-  - Proograma III: Este es un programa básico en la cual se ejecuta una página básica, los pasos para ejecutarla son:
+- Proograma III: Este es un programa básico en la cual se ejecuta una página básica, los pasos para ejecutarla son:
     1. Paso 1: Nos movemos al directorio del ejercicio:
     ```bash
     cd "Programa III"
