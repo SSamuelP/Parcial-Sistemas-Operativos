@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: web-app-service
+spec:
+  type: NodePort  # Puedes usar 'LoadBalancer' en la nube para obtener una IP pública
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 30001  # Puerto accesible desde el exterior
+  selector:
+    app: web-app
